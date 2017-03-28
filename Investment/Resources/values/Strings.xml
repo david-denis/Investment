@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">Investilator</string>
+  <string name="menu_item_edit">Edit</string>
+  <string name="menu_item_delete">Delete</string>
+</resources>

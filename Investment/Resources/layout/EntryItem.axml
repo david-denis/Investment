@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linearRoot"
+    android:clickable="true"
+    android:longClickable="true">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/linearColor"
+        android:layout_weight="5" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:id="@+id/imgTypeIcon"
+        android:layout_weight="15" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtName"
+        android:layout_weight="35"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_gravity="center_vertical" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtInitialPayment"
+        android:layout_weight="35"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_gravity="center_vertical" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtFuturePayment"
+        android:layout_weight="35"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_gravity="center_vertical" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTime"
+        android:layout_weight="25"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_gravity="center_vertical" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtGrowthRate"
+        android:layout_weight="40"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_gravity="center_vertical" />
+    <CheckBox
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:id="@+id/chkPeriod"
+        android:layout_weight="15"
+        android:background="@drawable/checkbox_background"
+        android:button="@drawable/checkbox"
+        android:textSize="12sp"
+        android:enabled="true"
+        android:gravity="center"
+        android:layout_gravity="center" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPeriodicPayment"
+        android:layout_weight="40"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_gravity="center_vertical" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCompounded"
+        android:layout_weight="40"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:ellipsize="end"
+        android:layout_gravity="center_vertical" />
+</LinearLayout>

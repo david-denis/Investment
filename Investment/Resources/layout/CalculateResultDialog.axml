@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="320dp"
+    android:id="@+id/linearRoot">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/linearCalcResult"
+        android:background="#3a444d">
+        <TextView
+            android:text="Calculated Result"
+            android:layout_width="265dp"
+            android:layout_height="match_parent"
+            android:id="@+id/lblCalcResult"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp" />
+        <ImageView
+            android:src="@drawable/close_btn"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imgClose"
+            android:layout_gravity="right" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/linearResult"
+        android:background="#eaeaea">
+        <TextView
+            android:text="Rate"
+            android:layout_width="195dp"
+            android:layout_height="match_parent"
+            android:id="@+id/lblResultLabel"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp" />
+        <TextView
+            android:text="10%"
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:id="@+id/lblResult"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginRight="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/linearGrowthRate"
+        android:background="#eaeaea">
+        <TextView
+            android:text="Growth Rate"
+            android:layout_width="195dp"
+            android:layout_height="match_parent"
+            android:id="@+id/lblGrowthRateLabel"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp" />
+        <TextView
+            android:text="11.20%"
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:id="@+id/lblGrowthRate"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginRight="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/linearInput"
+        android:background="#3a444d">
+        <TextView
+            android:text="Input"
+            android:layout_width="265dp"
+            android:layout_height="match_parent"
+            android:id="@+id/lblInput"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/linearInput1"
+        android:background="#eaeaea">
+        <TextView
+            android:text="Initial Amount"
+            android:layout_width="195dp"
+            android:layout_height="match_parent"
+            android:id="@+id/lblInput1Label"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp" />
+        <TextView
+            android:text="$100"
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:id="@+id/lblInput1"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginRight="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/linearInput2"
+        android:background="#eaeaea">
+        <TextView
+            android:text="Future Amount"
+            android:layout_width="195dp"
+            android:layout_height="match_parent"
+            android:id="@+id/lblInput2Label"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp" />
+        <TextView
+            android:text="$200"
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:id="@+id/lblInput2"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginRight="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/linearInput3"
+        android:background="#eaeaea">
+        <TextView
+            android:text="Duration"
+            android:layout_width="195dp"
+            android:layout_height="match_parent"
+            android:id="@+id/lblInput3Label"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp" />
+        <TextView
+            android:text="5 Years"
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:id="@+id/lblInput3"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginRight="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/linearInput4"
+        android:background="#eaeaea">
+        <TextView
+            android:text="Compounded"
+            android:layout_width="195dp"
+            android:layout_height="match_parent"
+            android:id="@+id/lblInput4Label"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp" />
+        <TextView
+            android:text="Monthly"
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:id="@+id/lblInput4"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginRight="5dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+﻿<resources>
+    <style name="NoTitleDialog" parent="android:style/Theme.Dialog">
+    	<item name="android:windowNoTitle">true</item>
+	</style>
+
+    <style name="noAnimTheme" parent="android:Theme.NoTitleBar">
+  		<item name="android:windowAnimationStyle">@null</item>
+	</style>
+</resources>

@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1"
+    p1:background="#3a444d">
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="match_parent"
+        p1:layout_height="70dp"
+        p1:id="@+id/linearHeader"
+        p1:background="#000000">
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="0dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearHdrOverview"
+            p1:background="#3a444d"
+            p1:layout_weight="126"
+            p1:paddingBottom="3dp">
+            <ImageView
+                p1:src="@drawable/overview"
+                p1:layout_width="match_parent"
+                p1:layout_height="0dp"
+                p1:id="@+id/imageView1"
+                p1:layout_weight="7"
+                p1:padding="3dp" />
+            <TextView
+                p1:text="OVERVIEW"
+                p1:layout_width="match_parent"
+                p1:layout_height="0dp"
+                p1:id="@+id/textView1"
+                p1:layout_weight="3"
+                p1:gravity="center"
+                p1:textColor="#FFFFFF"
+                p1:textSize="8dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="0dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearLayout5"
+            p1:layout_weight="2">
+            <ImageView
+                p1:src="@drawable/seperator"
+                p1:layout_width="match_parent"
+                p1:layout_height="match_parent"
+                p1:id="@+id/imageView2"
+                p1:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="0dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearHdrInvestment"
+            p1:background="#3a444d"
+            p1:layout_weight="126"
+            p1:paddingBottom="3dp">
+            <ImageView
+                p1:src="@drawable/investment"
+                p1:layout_width="match_parent"
+                p1:layout_height="0dp"
+                p1:id="@+id/imageView1"
+                p1:layout_weight="7"
+                p1:padding="3dp" />
+            <TextView
+                p1:text="INVESTMENTS"
+                p1:layout_width="match_parent"
+                p1:layout_height="0dp"
+                p1:id="@+id/textView1"
+                p1:layout_weight="3"
+                p1:gravity="center"
+                p1:textColor="#FFFFFF"
+                p1:textSize="8dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="0dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearLayout8"
+            p1:layout_weight="2">
+            <ImageView
+                p1:src="@drawable/seperator"
+                p1:layout_width="match_parent"
+                p1:layout_height="match_parent"
+                p1:id="@+id/imageView2"
+                p1:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="0dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearHdrCharts"
+            p1:background="#3a444d"
+            p1:layout_weight="126"
+            p1:paddingBottom="3dp">
+            <ImageView
+                p1:src="@drawable/chart"
+                p1:layout_width="match_parent"
+                p1:layout_height="0dp"
+                p1:id="@+id/imageView1"
+                p1:layout_weight="7"
+                p1:padding="3dp" />
+            <TextView
+                p1:text="CHARTS"
+                p1:layout_width="match_parent"
+                p1:layout_height="0dp"
+                p1:id="@+id/textView1"
+                p1:layout_weight="3"
+                p1:gravity="center"
+                p1:textColor="#FFFFFF"
+                p1:textSize="8dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="0dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearSeperator"
+            p1:layout_weight="2">
+            <ImageView
+                p1:src="@drawable/seperator"
+                p1:layout_width="match_parent"
+                p1:layout_height="match_parent"
+                p1:id="@+id/imageView2"
+                p1:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="0dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearHdrStats"
+            p1:background="#3a444d"
+            p1:layout_weight="126"
+            p1:paddingBottom="3dp">
+            <ImageView
+                p1:src="@drawable/stat"
+                p1:layout_width="match_parent"
+                p1:layout_height="0dp"
+                p1:id="@+id/imageView1"
+                p1:layout_weight="7"
+                p1:padding="3dp" />
+            <TextView
+                p1:text="STATS"
+                p1:layout_width="match_parent"
+                p1:layout_height="0dp"
+                p1:id="@+id/textView1"
+                p1:layout_weight="3"
+                p1:gravity="center"
+                p1:textColor="#FFFFFF"
+                p1:textSize="8dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="0dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearLayout7"
+            p1:layout_weight="2">
+            <ImageView
+                p1:src="@drawable/seperator"
+                p1:layout_width="match_parent"
+                p1:layout_height="match_parent"
+                p1:id="@+id/imageView2"
+                p1:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="0dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearHdrMore"
+            p1:background="#3a444d"
+            p1:layout_weight="126"
+            p1:paddingBottom="3dp">
+            <ImageView
+                p1:src="@drawable/more"
+                p1:layout_width="match_parent"
+                p1:layout_height="0dp"
+                p1:id="@+id/imageView1"
+                p1:layout_weight="7"
+                p1:padding="3dp" />
+            <TextView
+                p1:text="MORE"
+                p1:layout_width="match_parent"
+                p1:layout_height="0dp"
+                p1:id="@+id/textView1"
+                p1:layout_weight="3"
+                p1:gravity="center"
+                p1:textColor="#FFFFFF"
+                p1:textSize="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="vertical"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="match_parent"
+        p1:layout_height="0dp"
+        p1:id="@+id/linearLayout3"
+        p1:layout_weight="16">
+        <FrameLayout
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:id="@+id/frameLayout1">
+            <FrameLayout
+                p1:minWidth="25px"
+                p1:minHeight="25px"
+                p1:layout_width="match_parent"
+                p1:layout_height="match_parent"
+                p1:id="@+id/frameMain"
+                p1:background="#FFFFFF" />
+            <FrameLayout
+                p1:minWidth="25px"
+                p1:minHeight="25px"
+                p1:layout_width="match_parent"
+                p1:layout_height="match_parent"
+                p1:id="@+id/frameMenu"
+                p1:background="#CC000000"
+                p1:visibility="invisible">
+                <LinearLayout
+                    p1:orientation="vertical"
+                    p1:minWidth="25px"
+                    p1:minHeight="25px"
+                    p1:layout_width="200dp"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/linearMenu"
+                    p1:layout_gravity="right"
+                    p1:background="#333b42">
+                    <LinearLayout
+                        p1:orientation="horizontal"
+                        p1:minWidth="25px"
+                        p1:minHeight="25px"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="45dp"
+                        p1:id="@+id/linearMenuSettings"
+                        p1:layout_gravity="center_vertical">
+                        <TextView
+                            p1:text="Settings"
+                            p1:layout_width="0dp"
+                            p1:layout_height="match_parent"
+                            p1:id="@+id/textView2"
+                            p1:layout_weight="12"
+                            p1:gravity="center_vertical"
+                            p1:textColor="#FFFFFF"
+                            p1:textSize="16sp"
+                            p1:layout_marginLeft="15dp" />
+                    </LinearLayout>
+                    <ImageView
+                        p1:src="@drawable/seperator_hor"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="2dp"
+                        p1:id="@+id/imageView3"
+                        p1:scaleType="fitXY" />
+                    <LinearLayout
+                        p1:orientation="horizontal"
+                        p1:minWidth="25px"
+                        p1:minHeight="25px"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="45dp"
+                        p1:id="@+id/linearMenuTypeAdd"
+                        p1:layout_gravity="center_vertical">
+                        <ImageView
+                            p1:src="@drawable/menu_investment_type"
+                            p1:layout_width="0dp"
+                            p1:layout_height="35dp"
+                            p1:id="@+id/imageView4"
+                            p1:layout_weight="6"
+                            p1:layout_gravity="center_vertical" />
+                        <TextView
+                            p1:text="Investment Types"
+                            p1:layout_width="0dp"
+                            p1:layout_height="match_parent"
+                            p1:id="@+id/textView2"
+                            p1:layout_weight="12"
+                            p1:gravity="center_vertical"
+                            p1:textColor="#FFFFFF"
+                            p1:textSize="12sp" />
+                        <ImageView
+                            p1:src="@drawable/arrow"
+                            p1:layout_width="0dp"
+                            p1:layout_height="15dp"
+                            p1:id="@+id/imageView5"
+                            p1:layout_weight="4"
+                            p1:layout_gravity="center_vertical" />
+                    </LinearLayout>
+                    <ImageView
+                        p1:src="@drawable/seperator_hor"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="2dp"
+                        p1:id="@+id/imageView3"
+                        p1:scaleType="fitXY" />
+                    <LinearLayout
+                        p1:orientation="horizontal"
+                        p1:minWidth="25px"
+                        p1:minHeight="25px"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="45dp"
+                        p1:id="@+id/linearMenuDefaultCountry"
+                        p1:layout_gravity="center_vertical">
+                        <ImageView
+                            p1:src="@drawable/menu_default_country"
+                            p1:layout_width="0dp"
+                            p1:layout_height="35dp"
+                            p1:id="@+id/imageView4"
+                            p1:layout_weight="6"
+                            p1:layout_gravity="center_vertical" />
+                        <TextView
+                            p1:text="Default Country"
+                            p1:layout_width="0dp"
+                            p1:layout_height="match_parent"
+                            p1:id="@+id/textView2"
+                            p1:layout_weight="12"
+                            p1:gravity="center_vertical"
+                            p1:textColor="#FFFFFF"
+                            p1:textSize="12sp" />
+                        <ImageView
+                            p1:src="@drawable/arrow"
+                            p1:layout_width="0dp"
+                            p1:layout_height="15dp"
+                            p1:id="@+id/imageView5"
+                            p1:layout_weight="4"
+                            p1:layout_gravity="center_vertical" />
+                    </LinearLayout>
+                    <ImageView
+                        p1:src="@drawable/seperator_hor"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="2dp"
+                        p1:id="@+id/imageView3"
+                        p1:scaleType="fitXY" />
+                    <LinearLayout
+                        p1:orientation="horizontal"
+                        p1:minWidth="25px"
+                        p1:minHeight="25px"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="45dp"
+                        p1:id="@+id/linearMenuUpdateData"
+                        p1:layout_gravity="center_vertical">
+                        <ImageView
+                            p1:src="@drawable/menu_update_data"
+                            p1:layout_width="0dp"
+                            p1:layout_height="35dp"
+                            p1:id="@+id/imageView4"
+                            p1:layout_weight="6"
+                            p1:layout_gravity="center_vertical" />
+                        <TextView
+                            p1:text="Update Data"
+                            p1:layout_width="0dp"
+                            p1:layout_height="match_parent"
+                            p1:id="@+id/textView2"
+                            p1:layout_weight="12"
+                            p1:gravity="center_vertical"
+                            p1:textColor="#FFFFFF"
+                            p1:textSize="12sp" />
+                        <ImageView
+                            p1:src="@drawable/arrow"
+                            p1:layout_width="0dp"
+                            p1:layout_height="15dp"
+                            p1:id="@+id/imageView5"
+                            p1:layout_weight="4"
+                            p1:layout_gravity="center_vertical" />
+                    </LinearLayout>
+                    <ImageView
+                        p1:src="@drawable/seperator_hor"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="2dp"
+                        p1:id="@+id/imageView3"
+                        p1:scaleType="fitXY" />
+                    <LinearLayout
+                        p1:orientation="horizontal"
+                        p1:minWidth="25px"
+                        p1:minHeight="25px"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="45dp"
+                        p1:id="@+id/linearLayout10"
+                        p1:layout_gravity="center_vertical">
+                        <TextView
+                            p1:text="App"
+                            p1:layout_width="0dp"
+                            p1:layout_height="match_parent"
+                            p1:id="@+id/textView2"
+                            p1:layout_weight="12"
+                            p1:gravity="center_vertical"
+                            p1:textColor="#FFFFFF"
+                            p1:textSize="16sp"
+                            p1:layout_marginLeft="15dp" />
+                    </LinearLayout>
+                    <ImageView
+                        p1:src="@drawable/seperator_hor"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="2dp"
+                        p1:id="@+id/imageView3"
+                        p1:scaleType="fitXY" />
+                    <LinearLayout
+                        p1:orientation="horizontal"
+                        p1:minWidth="25px"
+                        p1:minHeight="25px"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="45dp"
+                        p1:id="@+id/linearHelpAndLegal"
+                        p1:layout_gravity="center_vertical">
+                        <ImageView
+                            p1:src="@drawable/menu_help_legal"
+                            p1:layout_width="0dp"
+                            p1:layout_height="35dp"
+                            p1:id="@+id/imageView4"
+                            p1:layout_weight="6"
+                            p1:layout_gravity="center_vertical" />
+                        <TextView
+                            p1:text="Help &amp; Legal"
+                            p1:layout_width="0dp"
+                            p1:layout_height="match_parent"
+                            p1:id="@+id/textView2"
+                            p1:layout_weight="12"
+                            p1:gravity="center_vertical"
+                            p1:textColor="#FFFFFF"
+                            p1:textSize="12sp" />
+                        <ImageView
+                            p1:src="@drawable/arrow"
+                            p1:layout_width="0dp"
+                            p1:layout_height="15dp"
+                            p1:id="@+id/imageView5"
+                            p1:layout_weight="4"
+                            p1:layout_gravity="center_vertical" />
+                    </LinearLayout>
+                    <ImageView
+                        p1:src="@drawable/seperator_hor"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="2dp"
+                        p1:id="@+id/imageView3"
+                        p1:scaleType="fitXY" />
+                    <LinearLayout
+                        p1:orientation="horizontal"
+                        p1:minWidth="25px"
+                        p1:minHeight="25px"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="45dp"
+                        p1:id="@+id/linearMenuAboutUs"
+                        p1:layout_gravity="center_vertical">
+                        <ImageView
+                            p1:src="@drawable/menu_about_us"
+                            p1:layout_width="0dp"
+                            p1:layout_height="35dp"
+                            p1:id="@+id/imageView4"
+                            p1:layout_weight="6"
+                            p1:layout_gravity="center_vertical" />
+                        <TextView
+                            p1:text="About Us"
+                            p1:layout_width="0dp"
+                            p1:layout_height="match_parent"
+                            p1:id="@+id/textView2"
+                            p1:layout_weight="12"
+                            p1:gravity="center_vertical"
+                            p1:textColor="#FFFFFF"
+                            p1:textSize="12sp" />
+                        <ImageView
+                            p1:src="@drawable/arrow"
+                            p1:layout_width="0dp"
+                            p1:layout_height="15dp"
+                            p1:id="@+id/imageView5"
+                            p1:layout_weight="4"
+                            p1:layout_gravity="center_vertical" />
+                    </LinearLayout>
+                    <ImageView
+                        p1:src="@drawable/seperator_hor"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="2dp"
+                        p1:id="@+id/imageView3"
+                        p1:scaleType="fitXY" />
+                    <LinearLayout
+                        p1:orientation="horizontal"
+                        p1:minWidth="25px"
+                        p1:minHeight="25px"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="45dp"
+                        p1:id="@+id/linearShowFriend"
+                        p1:layout_gravity="center_vertical">
+                        <ImageView
+                            p1:src="@drawable/menu_friend"
+                            p1:layout_width="0dp"
+                            p1:layout_height="35dp"
+                            p1:id="@+id/imageView4"
+                            p1:layout_weight="6"
+                            p1:layout_gravity="center_vertical" />
+                        <TextView
+                            p1:text="Let your friends know!"
+                            p1:layout_width="0dp"
+                            p1:layout_height="match_parent"
+                            p1:id="@+id/textView2"
+                            p1:layout_weight="12"
+                            p1:gravity="center_vertical"
+                            p1:textColor="#FFFFFF"
+                            p1:textSize="12sp" />
+                        <ImageView
+                            p1:src="@drawable/arrow"
+                            p1:layout_width="0dp"
+                            p1:layout_height="15dp"
+                            p1:id="@+id/imageView5"
+                            p1:layout_weight="4"
+                            p1:layout_gravity="center_vertical" />
+                    </LinearLayout>
+                    <ImageView
+                        p1:src="@drawable/seperator_hor"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="2dp"
+                        p1:id="@+id/imageView3"
+                        p1:scaleType="fitXY" />
+                    <LinearLayout
+                        p1:orientation="horizontal"
+                        p1:minWidth="25px"
+                        p1:minHeight="25px"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="45dp"
+                        p1:id="@+id/linearShowLove"
+                        p1:layout_gravity="center_vertical">
+                        <ImageView
+                            p1:src="@drawable/menu_showus"
+                            p1:layout_width="0dp"
+                            p1:layout_height="35dp"
+                            p1:id="@+id/imageView4"
+                            p1:layout_weight="6"
+                            p1:layout_gravity="center_vertical" />
+                        <TextView
+                            p1:text="Show us some love!"
+                            p1:layout_width="0dp"
+                            p1:layout_height="match_parent"
+                            p1:id="@+id/textView2"
+                            p1:layout_weight="12"
+                            p1:gravity="center_vertical"
+                            p1:textColor="#FFFFFF"
+                            p1:textSize="12sp" />
+                        <ImageView
+                            p1:src="@drawable/arrow"
+                            p1:layout_width="0dp"
+                            p1:layout_height="15dp"
+                            p1:id="@+id/imageView5"
+                            p1:layout_weight="4"
+                            p1:layout_gravity="center_vertical" />
+                    </LinearLayout>
+                    <ImageView
+                        p1:src="@drawable/seperator_hor"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="2dp"
+                        p1:id="@+id/imageView3"
+                        p1:scaleType="fitXY" />
+                </LinearLayout>
+                <LinearLayout
+                    p1:orientation="vertical"
+                    p1:minWidth="25px"
+                    p1:minHeight="25px"
+                    p1:layout_width="200dp"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/linearHelpLegalMenu"
+                    p1:layout_gravity="right"
+                    p1:background="#333b42"
+                    p1:visibility="invisible">
+                    <LinearLayout
+                        p1:orientation="horizontal"
+                        p1:minWidth="25px"
+                        p1:minHeight="25px"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="45dp"
+                        p1:id="@+id/linearHelpSettings"
+                        p1:layout_gravity="center_vertical">
+                        <ImageView
+                            p1:src="@drawable/back"
+                            p1:layout_width="0dp"
+                            p1:layout_height="30dp"
+                            p1:id="@+id/imageView4"
+                            p1:layout_weight="6"
+                            p1:layout_gravity="center_vertical" />
+                        <TextView
+                            p1:text="Settings"
+                            p1:layout_width="0dp"
+                            p1:layout_height="match_parent"
+                            p1:id="@+id/textView2"
+                            p1:layout_weight="20"
+                            p1:gravity="center_vertical"
+                            p1:textColor="#FFFFFF"
+                            p1:textSize="12sp" />
+                    </LinearLayout>
+                    <ImageView
+                        p1:src="@drawable/seperator_hor"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="2dp"
+                        p1:id="@+id/imageView3"
+                        p1:scaleType="fitXY" />
+                    <LinearLayout
+                        p1:orientation="horizontal"
+                        p1:minWidth="25px"
+                        p1:minHeight="25px"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="45dp"
+                        p1:id="@+id/linearHelpMain"
+                        p1:layout_gravity="center_vertical">
+                        <TextView
+                            p1:text="Help"
+                            p1:layout_width="0dp"
+                            p1:layout_height="match_parent"
+                            p1:id="@+id/textView2"
+                            p1:layout_weight="12"
+                            p1:gravity="center_vertical"
+                            p1:textColor="#FFFFFF"
+                            p1:textSize="16sp"
+                            p1:layout_marginLeft="15dp" />
+                    </LinearLayout>
+                    <ImageView
+                        p1:src="@drawable/seperator_hor"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="2dp"
+                        p1:id="@+id/imageView3"
+                        p1:scaleType="fitXY" />
+                    <LinearLayout
+                        p1:orientation="horizontal"
+                        p1:minWidth="25px"
+                        p1:minHeight="25px"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="45dp"
+                        p1:id="@+id/linearHelpFAQ"
+                        p1:layout_gravity="center_vertical">
+                        <ImageView
+                            p1:src="@drawable/help_faq"
+                            p1:layout_width="0dp"
+                            p1:layout_height="30dp"
+                            p1:id="@+id/imageView4"
+                            p1:layout_weight="6"
+                            p1:layout_gravity="center_vertical" />
+                        <TextView
+                            p1:text="FAQ"
+                            p1:layout_width="0dp"
+                            p1:layout_height="match_parent"
+                            p1:id="@+id/textView2"
+                            p1:layout_weight="12"
+                            p1:gravity="center_vertical"
+                            p1:textColor="#FFFFFF"
+                            p1:textSize="12sp" />
+                        <ImageView
+                            p1:src="@drawable/arrow"
+                            p1:layout_width="0dp"
+                            p1:layout_height="15dp"
+                            p1:id="@+id/imageView5"
+                            p1:layout_weight="4"
+                            p1:layout_gravity="center_vertical" />
+                    </LinearLayout>
+                    <ImageView
+                        p1:src="@drawable/seperator_hor"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="2dp"
+                        p1:id="@+id/imageView3"
+                        p1:scaleType="fitXY" />
+                    <LinearLayout
+                        p1:orientation="horizontal"
+                        p1:minWidth="25px"
+                        p1:minHeight="25px"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="45dp"
+                        p1:id="@+id/linearHelpEmail"
+                        p1:layout_gravity="center_vertical">
+                        <ImageView
+                            p1:src="@drawable/help_email"
+                            p1:layout_width="0dp"
+                            p1:layout_height="30dp"
+                            p1:id="@+id/imageView4"
+                            p1:layout_weight="6"
+                            p1:layout_gravity="center_vertical" />
+                        <TextView
+                            p1:text="Email Support"
+                            p1:layout_width="0dp"
+                            p1:layout_height="match_parent"
+                            p1:id="@+id/textView2"
+                            p1:layout_weight="12"
+                            p1:gravity="center_vertical"
+                            p1:textColor="#FFFFFF"
+                            p1:textSize="12sp" />
+                        <ImageView
+                            p1:src="@drawable/arrow"
+                            p1:layout_width="0dp"
+                            p1:layout_height="15dp"
+                            p1:id="@+id/imageView5"
+                            p1:layout_weight="4"
+                            p1:layout_gravity="center_vertical" />
+                    </LinearLayout>
+                    <ImageView
+                        p1:src="@drawable/seperator_hor"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="2dp"
+                        p1:id="@+id/imageView3"
+                        p1:scaleType="fitXY" />
+                    <LinearLayout
+                        p1:orientation="horizontal"
+                        p1:minWidth="25px"
+                        p1:minHeight="25px"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="45dp"
+                        p1:id="@+id/linearLegalMain"
+                        p1:layout_gravity="center_vertical">
+                        <TextView
+                            p1:text="Legal"
+                            p1:layout_width="0dp"
+                            p1:layout_height="match_parent"
+                            p1:id="@+id/textView2"
+                            p1:layout_weight="12"
+                            p1:gravity="center_vertical"
+                            p1:textColor="#FFFFFF"
+                            p1:textSize="16sp"
+                            p1:layout_marginLeft="15dp" />
+                    </LinearLayout>
+                    <ImageView
+                        p1:src="@drawable/seperator_hor"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="2dp"
+                        p1:id="@+id/imageView3"
+                        p1:scaleType="fitXY" />
+                    <LinearLayout
+                        p1:orientation="horizontal"
+                        p1:minWidth="25px"
+                        p1:minHeight="25px"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="45dp"
+                        p1:id="@+id/linearLegalTerms"
+                        p1:layout_gravity="center_vertical">
+                        <ImageView
+                            p1:src="@drawable/legal_termsservice"
+                            p1:layout_width="0dp"
+                            p1:layout_height="30dp"
+                            p1:id="@+id/imageView4"
+                            p1:layout_weight="6"
+                            p1:layout_gravity="center_vertical" />
+                        <TextView
+                            p1:text="Terms of Service"
+                            p1:layout_width="0dp"
+                            p1:layout_height="match_parent"
+                            p1:id="@+id/textView2"
+                            p1:layout_weight="12"
+                            p1:gravity="center_vertical"
+                            p1:textColor="#FFFFFF"
+                            p1:textSize="12sp" />
+                        <ImageView
+                            p1:src="@drawable/arrow"
+                            p1:layout_width="0dp"
+                            p1:layout_height="15dp"
+                            p1:id="@+id/imageView5"
+                            p1:layout_weight="4"
+                            p1:layout_gravity="center_vertical" />
+                    </LinearLayout>
+                    <ImageView
+                        p1:src="@drawable/seperator_hor"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="2dp"
+                        p1:id="@+id/imageView3"
+                        p1:scaleType="fitXY" />
+                    <LinearLayout
+                        p1:orientation="horizontal"
+                        p1:minWidth="25px"
+                        p1:minHeight="25px"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="45dp"
+                        p1:id="@+id/linearLegalPrivacy"
+                        p1:layout_gravity="center_vertical">
+                        <ImageView
+                            p1:src="@drawable/legal_privacy"
+                            p1:layout_width="0dp"
+                            p1:layout_height="30dp"
+                            p1:id="@+id/imageView4"
+                            p1:layout_weight="6"
+                            p1:layout_gravity="center_vertical" />
+                        <TextView
+                            p1:text="Privacy"
+                            p1:layout_width="0dp"
+                            p1:layout_height="match_parent"
+                            p1:id="@+id/textView2"
+                            p1:layout_weight="12"
+                            p1:gravity="center_vertical"
+                            p1:textColor="#FFFFFF"
+                            p1:textSize="12sp" />
+                        <ImageView
+                            p1:src="@drawable/arrow"
+                            p1:layout_width="0dp"
+                            p1:layout_height="15dp"
+                            p1:id="@+id/imageView5"
+                            p1:layout_weight="4"
+                            p1:layout_gravity="center_vertical" />
+                    </LinearLayout>
+                    <ImageView
+                        p1:src="@drawable/seperator_hor"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="2dp"
+                        p1:id="@+id/imageView3"
+                        p1:scaleType="fitXY" />
+                </LinearLayout>
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="#3a444d">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/linearLayout1"
+        android:padding="10dp">
+        <ImageView
+            android:src="@drawable/back"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imgBack"
+            android:layout_marginTop="5dp" />
+        <ImageView
+            android:src="@drawable/menu_settings"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView2" />
+        <TextView
+            android:text="Settings"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:gravity="center_vertical"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/linearLayout1"
+        android:layout_weight="18"
+        android:background="#f1f3f2">
+        <TextView
+            android:text="About Us"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/textView2"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:visibility="gone" />
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/webView"
+            android:padding="15dp"
+            android:layout_margin="5dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txtAboutMain"
+            android:background="#eaeaea"
+            android:layout_margin="5dp"
+            android:padding="15dp"
+            android:textColor="#464f57"
+            android:textSize="14sp"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="#f1f3f2">
+    <TextView
+        android:text="Growth Rate Comparison"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/txtTitle"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:visibility="visible" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/linearChart"
+        android:layout_weight="200">
+        <oxyplot.xamarinandroid.PlotView
+            android:id="@+id/plotview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/linearListHeader"
+        android:background="#3a444d">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:layout_weight="20" />
+        <ImageView
+            android:src="@drawable/seperator"
+            android:id="@+id/imageView2"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:layout_weight="35"
+            android:text="Name" />
+        <ImageView
+            android:src="@drawable/seperator"
+            android:id="@+id/imageView2"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:layout_weight="35"
+            android:text="Initial Amount" />
+        <ImageView
+            android:src="@drawable/seperator"
+            android:id="@+id/imageView2"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:layout_weight="35"
+            android:text="Future Amount" />
+        <ImageView
+            android:src="@drawable/seperator"
+            android:id="@+id/imageView2"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:layout_weight="25"
+            android:text="Time" />
+        <ImageView
+            android:src="@drawable/seperator"
+            android:id="@+id/imageView2"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:layout_weight="40"
+            android:text="Growth Rate" />
+        <ImageView
+            android:src="@drawable/seperator"
+            android:id="@+id/imageView2"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:layout_weight="15" />
+        <ImageView
+            android:src="@drawable/seperator"
+            android:id="@+id/imageView2"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:layout_weight="40"
+            android:text="Periodic Amount" />
+        <ImageView
+            android:src="@drawable/seperator"
+            android:id="@+id/imageView2"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:layout_weight="40"
+            android:text="Compounded" />
+    </LinearLayout>
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/listData"
+        android:layout_weight="300"
+        android:scrollbars="vertical" />
+</LinearLayout>
